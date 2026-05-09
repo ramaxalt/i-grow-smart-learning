@@ -1,0 +1,241 @@
+---
+import MainLayout from '../layouts/MainLayout.astro'
+---
+
+<MainLayout title="iGrow Smart Learning Center">
+
+  <!-- NAVBAR -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-slate-100">
+
+  <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+
+    <!-- LOGO -->
+    <div class="flex items-center gap-3">
+
+      <img
+        src="/logo.jpeg"
+        alt="logo"
+        class="w-16"
+      />
+
+    </div>
+
+    <!-- MENU -->
+    <div class="hidden md:flex items-center gap-10 font-bold text-slate-700">
+
+      <a href="/" class="hover:text-green-500 transition">
+        Beranda
+      </a>
+
+      <a href="/#about" class="hover:text-green-500 transition">
+        Tentang Kami
+      </a>
+
+      <a href="/#program" class="hover:text-green-500 transition">
+        Program
+      </a>
+
+      <a href="/testimoni" class="hover:text-green-500 transition">
+        Testimoni
+      </a>
+
+      <a href="/contact" class="hover:text-green-500 transition">
+        Kontak
+      </a>
+
+    </div>
+
+    <!-- BUTTON -->
+    <a
+      href="https://wa.me/628123456789"
+      class="bg-green-500 hover:bg-green-600 transition text-white px-6 py-3 rounded-2xl font-bold shadow-lg shadow-green-200"
+    >
+      Hubungi Kami
+    </a>
+
+  </div>
+
+</nav>
+
+  <!-- HERO -->
+  <section
+    id="home"
+    class="relative overflow-hidden min-h-screen bg-gradient-to-b from-sky-50 to-white flex items-center pt-32"
+  >
+
+      <!-- LEFT -->
+      <div>
+
+        <div class="inline-flex items-center gap-2 bg-green-100 text-green-600 px-5 py-3 rounded-full font-bold mb-8">
+          🏡 Les Rumahan TK - SMP
+        </div>
+
+        <h1 class="text-6xl leading-tight font-black text-slate-800">
+          Belajar Seru,
+          Pintar Tumbuh,
+          Masa Depan
+          <span class="gradient-text">
+            Cerah
+          </span>
+        </h1>
+
+        <p class="mt-8 text-slate-600 text-xl leading-relaxed max-w-xl">
+          iGrow Smart Learning Center adalah tempat belajar nyaman
+          dan menyenangkan untuk anak TK hingga SMP dengan
+          pendekatan personal dan bimbingan berkualitas.
+        </p>
+
+        <div class="mt-10 flex flex-wrap gap-5">
+
+          <a
+            href="https://wa.me/628123456789"
+            class="bg-green-500 hover:bg-green-600 transition text-white px-8 py-5 rounded-2xl font-bold shadow-xl shadow-green-200"
+          >
+            Daftar Sekarang
+          </a>
+
+          <a
+            href="#program"
+            class="border-2 border-slate-200 hover:border-green-500 hover:text-green-500 transition text-slate-700 px-8 py-5 rounded-2xl font-bold"
+          >
+            Lihat Program
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="relative">
+
+        <div class="absolute inset-0 bg-gradient-to-r from-green-200 to-sky-200 rounded-full blur-3xl opacity-40"></div>
+
+        <img
+          src="/hero.jpg"
+          alt="hero"
+          class="relative w-full max-w-2xl mx-auto floating"
+        />
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-32 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
+
+      <div>
+
+        <div class="inline-block bg-green-100 text-green-600 px-4 py-2 rounded-full font-bold mb-6">
+          🌱 Tentang Kami
+        </div>
+
+        <h2 class="text-5xl font-black text-slate-800 leading-tight">
+          Tempat Belajar
+          yang Nyaman
+          dan Bermakna
+        </h2>
+
+        <p class="mt-8 text-slate-600 text-xl leading-relaxed">
+          iGrow hadir sebagai solusi belajar di luar sekolah
+          dengan suasana rumahan yang hangat dan nyaman.
+        </p>
+
+      </div>
+
+      <div>
+
+        <img
+          src="/classroom.jpg"
+          alt="classroom"
+          class="rounded-[40px] shadow-2xl w-full"
+        />
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROGRAM -->
+  <section id="program" class="py-32 bg-sky-50">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center">
+
+        <div class="inline-block bg-green-100 text-green-600 px-4 py-2 rounded-full font-bold mb-6">
+          📚 Program Kami
+        </div>
+
+        <h2 class="text-5xl font-black text-slate-800">
+          Program Belajar
+        </h2>
+
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 mt-20">
+
+        <div class="bg-white rounded-[35px] p-10 shadow-lg">
+
+          <div class="text-6xl mb-6">
+            🎨
+          </div>
+
+          <h3 class="text-3xl font-black text-slate-800">
+            TK
+          </h3>
+
+          <p class="mt-5 text-slate-600">
+            Belajar sambil bermain dan mengenal dasar pembelajaran.
+          </p>
+
+        </div>
+
+        <div class="bg-white rounded-[35px] p-10 shadow-lg">
+
+          <div class="text-6xl mb-6">
+            📖
+          </div>
+
+          <h3 class="text-3xl font-black text-slate-800">
+            SD
+          </h3>
+
+          <p class="mt-5 text-slate-600">
+            Membantu memahami pelajaran sekolah dan PR.
+          </p>
+
+        </div>
+
+        <div class="bg-white rounded-[35px] p-10 shadow-lg">
+
+          <div class="text-6xl mb-6">
+            ✏️
+          </div>
+
+          <h3 class="text-3xl font-black text-slate-800">
+            SMP
+          </h3>
+
+          <p class="mt-5 text-slate-600">
+            Pendalaman materi dan persiapan ujian.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 py-10 text-center text-slate-400 font-semibold">
+    © 2026 iGrow Smart Learning Center. All Rights Reserved.
+  </footer>
+
+</MainLayout>

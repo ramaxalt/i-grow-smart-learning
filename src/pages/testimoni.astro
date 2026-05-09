@@ -1,0 +1,116 @@
+---
+import MainLayout from '../layouts/MainLayout.astro'
+---
+
+<MainLayout title="Testimoni - iGrow Smart Learning Center">
+
+<!-- NAVBAR -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-slate-100">
+
+  <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+
+    <!-- LOGO -->
+    <div class="flex items-center gap-3">
+
+      <img
+        src="/logo.jpeg"
+        alt="logo"
+        class="w-16"
+      />
+
+    </div>
+
+    <!-- MENU -->
+    <div class="hidden md:flex items-center gap-10 font-bold text-slate-700">
+
+      <a href="/" class="hover:text-green-500 transition">
+        Beranda
+      </a>
+
+      <a href="/#about" class="hover:text-green-500 transition">
+        Tentang Kami
+      </a>
+
+      <a href="/#program" class="hover:text-green-500 transition">
+        Program
+      </a>
+
+      <a href="/testimoni" class="hover:text-green-500 transition">
+        Testimoni
+      </a>
+
+      <a href="/contact" class="hover:text-green-500 transition">
+        Kontak
+      </a>
+
+    </div>
+
+    <!-- BUTTON -->
+    <a
+      href="https://wa.me/628123456789"
+      class="bg-green-500 hover:bg-green-600 transition text-white px-6 py-3 rounded-2xl font-bold shadow-lg shadow-green-200"
+    >
+      Hubungi Kami
+    </a>
+
+  </div>
+
+</nav>
+
+  <section class="min-h-screen py-32 bg-gradient-to-b from-sky-50 to-white">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center max-w-3xl mx-auto">
+      
+
+        <div class="inline-block bg-yellow-100 text-yellow-600 px-4 py-2 rounded-full font-bold mb-6">
+          ⭐ Testimoni
+        </div>
+
+        <h1 class="text-6xl font-black text-slate-800 leading-tight">
+          Cerita Bahagia
+          Orang Tua & Siswa
+        </h1>
+
+        <p class="mt-8 text-slate-600 text-xl leading-relaxed">
+          Kepuasan dan perkembangan anak menjadi prioritas utama kami.
+        </p>
+
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 mt-20">
+
+        <div class="bg-white rounded-[40px] p-10 shadow-xl border border-slate-100 hover:-translate-y-3 transition duration-300">
+
+          <div class="text-yellow-400 text-3xl mb-6">
+            ⭐⭐⭐⭐⭐
+          </div>
+
+          <p class="text-slate-600 text-lg leading-relaxed">
+            Anak saya jadi lebih percaya diri dan semangat belajar setiap hari.
+          </p>
+
+          <div class="mt-10 flex items-center gap-4">
+
+            <img
+              src="/student1.jpg"
+              alt="student"
+              class="w-16 h-16 rounded-full object-cover"
+            />
+
+            <div>
+              <h3 class="font-black text-slate-800">
+                Ibu Rina
+              </h3>
+
+              <p class="text-slate-500">
+                Orang Tua Siswa
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+</MainLayout>
